@@ -1,0 +1,16 @@
+{
+  "name": "assignment5-sequelize",
+  "version": "1.0.0",
+  "description": "Assignment 5 - Sequelize Users, Posts, and Comments REST APIs",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql2": "^3.14.1",
+    "sequelize": "^6.37.7"
+  }
+}
