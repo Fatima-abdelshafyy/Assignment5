@@ -1,4 +1,4 @@
-
+ vvv 
 var removeElement = function(nums, val) {
     let k = 0;
 
