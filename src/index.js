@@ -33,8 +33,8 @@ async function startServer() {
       console.log(`Server running at http://localhost:${PORT}`);
     });
   } catch (error) {
-    console.error("Unable to start the application:", error.message);
-    process.exit(1);
+    console.error("Unable to start the application:", error);
+    process.exit(1); 
   }
 }
 
